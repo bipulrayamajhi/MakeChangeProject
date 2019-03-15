@@ -7,5 +7,7 @@
 TODO: project description
 
 ### Technologies Used
+ * Java
+ * Scanner
 
 ### Lessons Learned , Insights Gained
