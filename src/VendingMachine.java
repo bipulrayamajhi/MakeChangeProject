@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class VendingMachine {
 
 	public static void main(String[] args) {
-//		int pennies, nickle, dime, quater, dollar;
-
 		Scanner sc = new Scanner(System.in);
 //		prompt the user to ask Item price
 
@@ -26,9 +24,8 @@ public class VendingMachine {
 
 		else {
 
- 
 //		calculate and display the change
-			
+
 			int change = billValue * 100 - itemPrice;
 			int dollar = 0, quater = 0, dime = 0, nickle = 0, pennies = 0;
 			while (change >= 100) {
@@ -58,7 +55,7 @@ public class VendingMachine {
 				change = change - 5;
 			}
 			System.out.println(nickle + "nickle");
-			
+
 			while (change < 5 && change > 0) {
 
 				pennies += 1;
